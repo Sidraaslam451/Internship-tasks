@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canopy Systems — Enterprise Software & Cloud Solutions</title>
+    <meta
+      name="description"
+      content="Canopy Systems builds reliable cloud infrastructure and custom software for growing businesses."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a href="/index.html" class="brand">
+          <svg class="brand-mark" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M12 2C7 2 3 6 3 11c0 3 1.6 5 4 6-1 1.5-1.5 3-1.5 5h13c0-2-.5-3.5-1.5-5 2.4-1 4-3 4-6 0-5-4-9-9-9Z"
+              stroke="currentColor"
+              stroke-width="1.6"
+            />
+            <path
+              d="M12 22V11M12 11l4-4M12 13l-4-4"
+              stroke="currentColor"
+              stroke-width="1.6"
+            />
+          </svg>
+          Canopy Systems
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="navLinks"
+          aria-label="Toggle menu"
+        >
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="/index.html" aria-current="page">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="/contact.html" class="btn btn-ghost">Book a consult</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Cloud Infrastructure &amp; Custom Software</p>
+          <h1>Systems that don't go down.</h1>
+          <p class="hero-lead">
+            Canopy Systems designs, builds, and maintains the software and cloud
+            infrastructure that growing businesses depend on every single day.
+          </p>
+          <div class="hero-actions">
+            <a href="/contact.html" class="btn btn-primary">Book a consult</a>
+            <a href="/portfolio.html" class="btn btn-ghost">View our work</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <b id="statUptime">99.98%</b><span>Average uptime</span>
+            </div>
+            <div class="hero-stat">
+              <b><span data-count="120">0</span>+</b><span>Clients served</span>
+            </div>
+            <div class="hero-stat">
+              <b><span data-count="9">0</span>+</b><span>Years operating</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="canopy-art">
+            <svg viewBox="0 0 400 400" width="100%" height="100%">
+              <g stroke="#4B7A5E" stroke-width="1.4" fill="none" opacity="0.7">
+                <path class="branch" d="M200 380 V 260" />
+                <path class="branch" d="M200 260 L120 180" />
+                <path class="branch" d="M200 260 L280 180" />
+                <path class="branch" d="M120 180 L60 110" />
+                <path class="branch" d="M120 180 L150 100" />
+                <path class="branch" d="M280 180 L340 110" />
+                <path class="branch" d="M280 180 L250 100" />
+              </g>
+              <g fill="#B98B3E">
+                <circle class="node" cx="200" cy="380" r="5" />
+                <circle class="node" cx="200" cy="260" r="5" />
+                <circle class="node" cx="120" cy="180" r="5" />
+                <circle class="node" cx="280" cy="180" r="5" />
+                <circle class="node" cx="60" cy="110" r="4" />
+                <circle class="node" cx="150" cy="100" r="4" />
+                <circle class="node" cx="340" cy="110" r="4" />
+                <circle class="node" cx="250" cy="100" r="4" />
+              </g>
+            </svg>
+          </div>
+          <div class="canopy-ticker">
+            <span
+              ><span class="dot"></span>Live status: all systems
+              operational</span
+            >
+            <span id="reqTicker">128,402,119 requests routed</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cream">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">What we do</p>
+          <h2>Three ways we keep you running</h2>
+          <p>
+            From the servers underneath to the software your customers touch, we
+            cover the full stack.
+          </p>
+        </div>
+        <div class="card-grid">
+          <div class="bracket-card reveal">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M7 18a4 4 0 0 1 0-8 5 5 0 0 1 9.6-1.5A4.5 4.5 0 0 1 17 18H7Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+            <h3>Cloud Infrastructure</h3>
+            <p>
+              Scalable, monitored environments built to stay up under real-world
+              load.
+            </p>
+          </div>
+          <div class="bracket-card reveal">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none">
+              <rect
+                x="3"
+                y="4"
+                width="18"
+                height="13"
+                rx="1.5"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+              <path
+                d="M8 21h8M12 17v4"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+            <h3>Custom Software</h3>
+            <p>
+              Web and internal tools designed around how your team actually
+              works.
+            </p>
+          </div>
+          <div class="bracket-card reveal">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M4 12h5M15 12h5M9 12a3 3 0 1 0 6 0 3 3 0 0 0-6 0Z"
+                stroke="currentColor"
+                stroke-width="1.5"
+              />
+            </svg>
+            <h3>Systems Integration</h3>
+            <p>
+              Connecting the tools you already use so data moves without manual
+              work.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How we work</p>
+          <h2>A process built for zero surprises</h2>
+        </div>
+        <div class="process">
+          <div class="process-step reveal">
+            <h4>Discover</h4>
+            <p>
+              We map your current systems and where they're costing you time.
+            </p>
+          </div>
+          <div class="process-step reveal">
+            <h4>Design</h4>
+            <p>
+              A concrete plan, timeline, and cost — before any code is written.
+            </p>
+          </div>
+          <div class="process-step reveal">
+            <h4>Build</h4>
+            <p>Weekly check-ins, staging environments, no black boxes.</p>
+          </div>
+          <div class="process-step reveal">
+            <h4>Support</h4>
+            <p>Monitoring and maintenance after launch, not just at handoff.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cream">
+      <div class="container text-center" style="max-width: 640px">
+        <h2 class="reveal">Ready to stop firefighting your infrastructure?</h2>
+        <p class="reveal">
+          Talk to our team about what a stable, well-integrated system could
+          look like for you.
+        </p>
+        <a href="/contact.html" class="btn btn-primary reveal"
+          >Book a consult</a
+        >
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div
+              class="brand"
+              style="color: var(--cream); margin-bottom: 0.8em"
+            >
+              Canopy Systems
+            </div>
+            <p style="max-width: 32ch; font-size: 0.92rem">
+              Enterprise software and cloud infrastructure for businesses that
+              can't afford downtime.
+            </p>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <a href="/about.html">About</a><a href="/services.html">Services</a
+            ><a href="/portfolio.html">Portfolio</a>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <a href="contact.html">Get in touch</a
+            ><a href="contact.html">hello@canopysystems.example</a>
+          </div>
+          <div>
+            <h4>Office</h4>
+            <span style="display: block">42 Harbourview Road</span
+            ><span style="display: block">Karachi, Pakistan</span>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Canopy Systems. All rights reserved.</span>
+          <span>Built with HTML, CSS &amp; JavaScript</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
